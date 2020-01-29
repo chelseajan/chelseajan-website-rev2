@@ -1,0 +1,19 @@
+*navigation bar
+[] figure out how to change color of the acftive navigation link
+[] responsive navigation bar that turns into a hamburger menu when window is too small
+
+
+* portoflio page
+x filter by functionalties:  all - portrait  - product - travel x
+[] mosaic layout
+x scroll to top
+[] adding hover effect on deselected options in filter
+
+
+* footer
+[] contains links to linked in, github
+
+
+* contact sheet
+[]
+

@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+#portfolio {
+    padding-top: 5%;
+}
+
+.scroll-container {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-shadow:        
+        1px 1px 3px  #ccc; 
+    background-color: white;
+}
+
+#arrow {
+    width: 24px;
+    height: 24px;
+    margin: 3px 5px;
+}
+
+.scroll-container:hover{
+    box-shadow:        
+        2px 2px 31px  rgb(189, 189, 189); 
+    border: 1px solid #ccc;
+
+}
+.filter-bar {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter-label {
+    margin-right: 10px;
+    color: RGB(15,44,62);
+}
+
+.filter-bar > a {
+    font-size: 16px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 50px;
+
+    border: 1px solid #ccc;
+    /* background: rgb(240, 240, 240); */
+    /* box-shadow:        
+        1px 1px 1px 2px #ccc;     */
+    border-radius: 50px;
+    color: #ccc;
+}
+
+.filter-bar a.active {
+    background: rgb(15,44,62);
+    border-color: rgb(15,44,62);
+    color: white;
+}
+
+.filter-bar a:hover {
+    box-shadow:        
+    2px 2px 17px  rgb(189, 189, 189); 
+}
+
+.image-container {
+    padding: 0;
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+}
+
+.image-container > div {
+    display: inline-block;
+}
+
+img {
+    width: 400px;
+    height: 600px;
+    /* width: 100%;
+    max-width: 400px;
+    height: auto; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
