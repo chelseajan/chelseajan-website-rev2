@@ -9,26 +9,28 @@
 </head>
 
 <body>
+    <!-- scroll to top -->
+    <a id="top"></a>
+    
     <div class="navbar">
         <a href="home.html" class="logo">CJ</a>
         <ul class="nav">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="home.html#about">About</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div> 
-    
-    <!-- scroll to top -->
-    <a id="top"></a>
-
     <div id="portfolio"> 
         <div class="scroll-container">
             <a href ="#top" class="scroll-up">
                 <i class="fas fa-chevron-up"></i>
             </a>
-        </div>    
+        </div> 
+
         
+        
+
         <div class="filter-bar">
             <div class="filter-label">Filter by:</div>
             <a href="#" data-filter="all" class="button active"><span>All</span></a>
@@ -39,21 +41,41 @@
             <a href="#" data-filter="film" class="button"><span>Film</span></a>
         </div>
 
-        <div class="image-container">
+
+
+        <div class="masonry-wrapper">
+        <div class="masonry">
+            <div class="filter travel">
+                <img src="images/balloons.jpg" alt="">
+            </div>
+
             <div class="filter portrait climbing">
                 <img src="images/andre.jpg" alt="">
             </div>
+
             <div class="filter travel">
                 <img src="images/sdnight.jpg" alt="">
+            </div>
+            <div class="filter product">
+                <img src="images/brunch.jpg" alt="">
             </div>
             <div class="filter portrait">
                 <img src="images/goutham.jpg" alt="">
             </div>
+            <div class="filter climbing film">
+                <img src="images/ironman.jpg" alt="">
+            </div>
             <div class="filter portrait climbing">
                 <img src="images/jeff.jpg" alt="">
             </div>
+            <div class="travel travel film">
+                <img src="images/roadtrip.jpg" alt="">
+            </div>
             <div class="filter travel">
                 <img src="images/banq.jpg" alt="">
+            </div>
+            <div class="filter travel">
+                <img src="images/symmetry.jpg" alt="">
             </div>
             <div class="filter portrait">
                 <img src="images/money.jpg" alt="">
@@ -63,48 +85,99 @@
             <div class="filter climbing portrait">
                 <img src="images/ashley2.jpg" alt="">
             </div>
+            <div class="filter travel">
+                <img src="images/sdfair.jpg" alt="">
+            </div>
+            <div class="filter product">
+                <img src="images/nike.jpg" alt="">
+            </div>
             <div class="filter portrait">
                 <img src="images/grad1.jpg" alt="">
             </div>
+            <div class="filter travel">
+                <img src="images/plane.jpg" alt="">
+            </div>
+            <div class="filter travel">
+                <img src="images/lajolla.jpg" alt="">
+            </div>
+            
             <div class="filter portrait">
                 <img src="images/jennifer.jpg" alt="">
             </div>
             <div class="filter travel">
+                <img src="images/montreal2.jpg" alt="">
+            </div>
+            <div class="filter travel">
                 <img src="images/montreal.jpg" alt="">
+            </div>
+            <div class="filter travel">
+                <img src="images/ob.jpg" alt="">
             </div>
             <div class="filter portrait">
                 <img src="images/balboa.jpg" alt="">
             </div>
+            <div class="filter travel">
+                <img src="images/canon.jpg" alt="">
+            </div>
+
+            <div class="filter film travel">
+                <img src="images/pies.jpg" alt="">
+            </div>
+
             <div class="filter climbing film">
                 <img src="images/arete.jpg" alt="">
             </div>
+            <div class="filter film travel">
+                <img src="images/pies2.jpg" alt="">
+            </div>
+
             <div class="filter portrait">
                 <img src="images/tk.jpg" alt="">
+            </div>
+            <div class="filter climbing">
+                <img src="images/jeff2.jpg" alt="">
             </div>
             <div class="filter film">
                 <img src="images/arcade.jpg" alt="">
             </div>
-            <!-- <div class="filter climbing film">
-                <img src="images/ironman.jpg" alt="">
-            </div> -->
+            <div class="filter travel">
+                <img src="images/sf.jpg" alt="">
+            </div> 
             <div class="filter climbing film">
                 <img src="images/greg.jpg" alt="">
+            </div>
+            <div class="filter travel">
+                <img src="images/la2.jpg" alt="">
+            </div>
+            <div class="filter product">
+                <img src="images/nike2.jpg" alt="">
             </div>
             <div class="filter climbing">
                 <img src="images/ashley3.jpg" alt="">
             </div>
+            <div class="filter">
+                <img src="images/illumina.jpg" alt="">
+            </div>
+ 
             <div class="filter travel">
                 <img src="images/redrock.jpg" alt="">
+            </div>
+            <div class="filter product film">
+                <img src="images/motorcycle.jpg" alt="">
             </div>
             <div class="filter travel">
                 <img src="images/abq1.jpg" alt="">
             </div>
-            <div class="filter travel">
-                <img src="images/abq2.jpg" alt="">
-            </div>
             <div class="filter portrait">
                 <img src="images/euan.jpg" alt="">
             </div>
+            <div class="filter travel">
+                <img src="images/abq2.jpg" alt="">
+            </div>
+            <div class="filter travel">
+                <img src="images/balloons2.jpg" alt="">
+            </div>
+
             <div class="filter travel">
                 <img src="images/la.jpg" alt="">
             </div>
@@ -114,10 +187,14 @@
             <div class="filter portrait climbing">
                 <img src="images/ashley1.jpg" alt="">
             </div>
+            <div class="filter travel">
+                <img src="images/green.jpg" alt="">
+            </div>
             <div class="filter climbing product">
                 <img src="images/climbingpad.jpg" alt="">
             </div>
-        </div> <!-- end of image-container -->
+        </div> <!-- end of masonry -->
+        </div>   <!-- end of masonry-wrapper -->
     </div> <!-- end of portfolio page -->
 </body>
 <script src="js/filter.js"></script>
