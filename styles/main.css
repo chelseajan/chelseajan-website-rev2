@@ -141,10 +141,10 @@ html {
     right: 40px;
     border-radius: 50px;
     box-shadow: 
-        -2px -2px 8px rgba(255, 255, 255, 1),
-        -2px -2px 12px rgba(255, 255, 255, 0.5),
-        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
-        2px 2px 8px rgba(0, 0, 0, 0.18);
+    -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.18);
     color: rgb(90, 90, 90);
 }
 
@@ -188,10 +188,10 @@ html {
     padding: 8px 14px;
     border-radius: 50px;
     box-shadow: 
-        -2px -2px 8px rgba(255, 255, 255, 1),
-        -2px -2px 12px rgba(255, 255, 255, 0.5),
-        inset 2px 2px 4px rgba(255, 255, 255, 0.1),
-        2px 2px 8px rgba(0, 0, 0, 0.18);
+    -2px -2px 8px rgba(255, 255, 255, 1),
+    -2px -2px 12px rgba(255, 255, 255, 0.5),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+    2px 2px 8px rgba(0, 0, 0, 0.18);
     color: rgb(90, 90, 90);
 }
 
