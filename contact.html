@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <title>Chelsea Jan - Contact</title>
     <link rel="stylesheet" href="styles/main.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
@@ -17,32 +18,30 @@
     </div> 
     <div id="contact-area">
         <div class="contact-container">
-            <div class="test">
-                
-                <div class="contact-text">Get in Touch</div>
-
-                <div class="contact-section">
-                    <div class="input-label">Name *</div>
-                    <input type="text" value="real names, please :) ">
-                </div>
-                <div class="contact-section">
-                    <div class="input-label">Email Address *</div>
-                    <input type="text" value="Your email">
-                </div>
-                <div class="contact-section">
-                    <div class="input-label">Subject *</div>
-                    <input type="text" value="">
-                </div>
-                <div class="contact-section">
-                    <div class="input-label">Message *</div>
-                    <input class="message-box" type="text" value="">
-                </div>
-                <div class="submit-area">
-                    <button class="submit">HIGH FIVE</button>
-                </div>
-            </div>
+            
+                <div class="contact-text">Let's get in touch</div>
+                <form action="#">
+                    <div class="contact-section">
+                        <div class="input-label">Name *</div>
+                        <input type="text" value="Real names, please :) " onfocus="this.value=''">
+                    </div>
+                    <div class="contact-section">
+                        <div class="input-label">Email Address *</div>
+                        <input type="email" value="Your email" onfocus="this.value=''">
+                    </div>
+                    <div class="contact-section">
+                        <div class="input-label">Subject *</div>
+                        <input type="text" value="" onfocus="this.value=''">
+                    </div>
+                    <div class="contact-section">
+                        <div class="input-label">Message *</div>
+                        <input class="message-box" type="text" value="" onfocus="this.value=''">
+                    </div>
+                    <div class="submit-area">
+                        <button class="submit">HIGH FIVE</button>
+                    </div>
+                </form>    
         </div>
     </div>
-</div>
 </body>
 </html>
